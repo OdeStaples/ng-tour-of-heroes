@@ -38,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "C:/Users/HP/OneDrive/Desktop/Angular Tour of Heroes/build",
+            "outputPath": "C:/Users/HP/OneDrive/Desktop/Builds",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
