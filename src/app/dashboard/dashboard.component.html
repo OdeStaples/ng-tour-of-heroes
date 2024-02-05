@@ -1,0 +1,11 @@
+<div class="container">
+  <h2 class="header">Top Heroes</h2>
+  <div class="top-heroes">
+    <!-- Apply the SlicePipe to the heroList() function -->
+    @for (hero of heroList() | slice:1:5; track hero.id;) {
+    <a class="hero-name" [routerLink]="['/hero-info', hero.id]">
+      {{ hero.name }}</a
+    >
+    }
+  </div>
+</div>

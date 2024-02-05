@@ -1,0 +1,35 @@
+.header{
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(68, 66, 66);
+  margin-bottom: 3rem;
+}
+
+.top-heroes{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-name{
+  background-color: #3f525c;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.hero-name:hover{
+  cursor: pointer;
+  background-color: black;
+}
+
+@media screen and (max-width: 1250px) {
+  
+}

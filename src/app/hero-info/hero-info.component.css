@@ -1,0 +1,43 @@
+.hero-name{
+  font-size: 3rem;
+  /* font-weight: 100; */
+}
+
+.hero-id{
+  margin: 3rem 0 .8rem 0;
+  /* margin-bottom: 1rem; */
+  font-size: 2rem;
+}
+
+[class^="hero-"]{
+  color: rgb(46, 46, 46);
+}
+
+label{
+  color: gray;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+input{
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+a{
+  padding: 1.5rem;
+  text-decoration: none;
+  /* margin: 1rem 1.8rem 3rem 0; */
+  display: inline-block;
+  color: #3d3d3d;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+a:hover{
+  cursor: pointer;
+  background-color: #3f525c;
+  color: white;
+}

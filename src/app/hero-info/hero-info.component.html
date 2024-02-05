@@ -1,0 +1,11 @@
+<h2 class="hero-name">{{ heroName.toUpperCase() }} Details</h2>
+<p class="hero-id">id: {{ heroId }}</p>
+<label for="heroName"
+  >Hero Name:
+  <input type="text" id="heroName" [(ngModel)]="heroName" />
+</label>
+<br />
+<a (click)="navigateBack()">Back</a>
+<a (click)="updateHeroName(heroId, heroName)" [ngStyle]="{ marginLeft: '1rem' }"
+  >Save</a
+>
